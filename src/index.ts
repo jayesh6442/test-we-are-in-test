@@ -1,16 +1,11 @@
-import express from "express"
-const app = express()
-app.get("/:name", (req, res) => {
-    const name = req.params
-    console.log("we changes if it run or ont");
-    console.log("testing the changes");
-    console.log(name);
-    res.send(
-        "hello and welcome to the server" + name
-    )
+import app from "./app"
+
+
+
+const port = process.env.PORT || 3000
+app.get('/', (req, res) => {
+    res.send('Hello World! change in file')
 })
-
-
-app.listen(3000, () => {
-    console.log("app in running");
+app.listen(port, () => {
+    console.log(`Server is running on port ${port}`)
 })
