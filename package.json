@@ -18,7 +18,11 @@
   "homepage": "https://github.com/jayesh6442/test-we-are-in-test#readme",
   "description": "",
   "dependencies": {
+    "@prisma/client": "^6.4.1",
     "@types/express": "^5.0.0",
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "prisma": "^6.4.1"
   }
 }
