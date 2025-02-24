@@ -16,5 +16,9 @@
     "url": "https://github.com/jayesh6442/test-we-are-in-test/issues"
   },
   "homepage": "https://github.com/jayesh6442/test-we-are-in-test#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "express": "^4.21.2"
+  }
 }
