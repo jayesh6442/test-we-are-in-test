@@ -4,9 +4,13 @@ const app = express()
 
 
 
-app.get("/", (req,res)=>{
+app.get("/:name", (req,res)=>{
+    const name = req.params
+console.log("we changes if it run or ont");
+console.log("testing the changes");
+    console.log(name);
     res.send(
-        "we are in the code block"
+        "hello and welcome to the server" + name
     )
 })
 
